@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Map</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Video Game Sales</h1>
+        <h3 id="description">Top 100 Most Sold Video Games Grouped by Platform</h3>
+        <div id="tooltip"></div>
+        <svg id="canvas"></svg>
+        <svg id="legend">
+            <rect class="legend-item" x="0" y="1" width="15" height="15" fill="Blue"></rect>
+            <text x="20" y="12.5">PlayStation</text>
+            <rect class="legend-item" x="0" y="20" width="15" height="15" fill="Green"></rect>
+            <text x="20" y="32.5">Xbox</text>
+            <rect class="legend-item" x="0" y="40" width="15" height="15" fill="Red"></rect>
+            <text x="20" y="52.5">Nintendo</text>
+            <rect class="legend-item" x="0" y="60" width="15" height="15" fill="Purple"></rect>
+            <text x="20" y="72.5">PC</text>
+        </svg>
+    </div>
+</body>
+<script defer src="script.js"></script>
+<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</html>

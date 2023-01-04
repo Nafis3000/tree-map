@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+    background: rgb(191,167,207);
+    background: linear-gradient(90deg, rgba(191,167,207,1) 0%, rgba(207,197,242,0.33447098976109213) 20%, rgba(250,233,209,1) 80%);
+}
+
+#canvas {
+    margin-top: 20px;
+    margign-bottom: 20px;
+    border: 2px solid black;
+    background: aliceblue;
+    width: 600px;
+    height: 600px;
+}
